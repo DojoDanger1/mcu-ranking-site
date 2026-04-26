@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Ranking</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="filters">
+        <select id="typeFilter">
+            <option value="all">All Types</option>
+            <option value="Movie">Movies</option>
+            <option value="TV Show">TV Shows</option>
+        </select>
+        <select id="universeFilter" hidden><option value="all"></option></select>
+        <select id="sagaFilter">
+            <option value="all">All Sagas</option>
+            <option value="Skywalker">Skywalker Saga</option>
+            <option value="Filoni-Verse">Filoni-Verse</option>
+        </select>
+        <select id="phaseFilter" hidden><option value="all"></option></select>
+        <select id="franchiseFilter">
+            <option value="all">All Franchises</option>
+            <option value="Andor">Andor</option>
+            <option value="Prequel Trilogy">Prequel Trilogy</option>
+            <option value="Original Trilogy">Original Trilogy</option>
+            <option value="The Mandalorian">The Mandalorian</option>
+        </select>
+        <select id="yearFilter">
+            <option value="all">All Years</option>
+            <option value="1977">1977</option>
+            <option value="1999">1999</option>
+            <option value="2002">2002</option>
+            <option value="2005">2005</option>
+            <option value="2016">2016</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+        </select>
+        <select id="mediumFilter">
+            <option value="all">All Mediums</option>
+            <option value="Live Action">Live Action</option>
+            <option value="Animation">Animation</option>
+        </select>
+        <select id="orderingDropdown">
+            <option value="ranking">Ranking Order</option>
+            <option value="release">Release Order</option>
+        </select>
+        <a href="mcu.html">Marvel Ranking</a>
+    </div>
+    <div id="rankingContainer"></div>
+    <div class="filters">
+        <p>Average Rating: <img id="avgRatingImg" src="imgs/icons/brilliant.png"/></p>
+    </div>
+    <div id="episodeModal" class="modal hidden">
+        <div class="modal-content">
+            <button id="closeModal">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <table id="episodeTable"></table>
+        </div>
+    </div>
+    <script src="entries_starwars.js"></script>
+    <script src="script.js"></script>
+</body>
+</body>
+</html>

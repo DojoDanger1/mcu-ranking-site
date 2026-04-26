@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCU Ranking</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="filters">
+        <select id="typeFilter">
+            <option value="all">All Types</option>
+            <option value="Movie">Movies</option>
+            <option value="TV Show">TV Shows</option>
+            <option value="Special Presentation">Special Presentations</option>
+            <option value="Short">Shorts</option>
+        </select>
+        <select id="universeFilter">
+            <option value="all">All Cinematic Universes</option>
+            <option value="MCU">MCU</option>
+            <option value="Fox X-Men">Fox X-Men</option>
+            <option value="Sony Spider-Man">Sony Spider-Man</option>
+            <option value="Miscellaneous">Miscellaneous</option>
+        </select>
+        <select id="sagaFilter">
+            <option value="all">All Sagas</option>
+            <option value="Infinity">Infinity Saga</option>
+            <option value="Defenders">Defenders Saga</option>
+            <option value="Multiverse">Multiverse Saga</option>
+        </select>
+        <select id="phaseFilter">
+            <option value="all">All Phases</option>
+            <option value="1">Phase 1</option>
+            <option value="2">Phase 2</option>
+            <option value="3">Phase 3</option>
+            <option value="4">Phase 4</option>
+            <option value="5">Phase 5</option>
+            <option value="6">Phase 6</option>
+        </select>
+        <select id="franchiseFilter">
+            <option value="all">All Franchises</option>
+            <option value="Ant-Man">Ant-Man</option>
+            <option value="Avengers">Avengers</option>
+            <option value="Black Panther">Black Panther</option>
+            <option value="Captain America">Captain America</option>
+            <option value="Daredevil (Ben Affleck)">Daredevil (Ben Affleck)</option>
+            <option value="Daredevil (Charlie Cox)">Daredevil (Charlie Cox)</option>
+            <option value="Deadpool">Deadpool</option>
+            <option value="Doctor Strange">Doctor Strange</option>
+            <option value="Fantastic Four (2005)">Fantastic Four (2005)</option>
+            <option value="Guardians of the Galaxy">Guardians of the Galaxy</option>
+            <option value="I Am Groot">I Am Groot</option>
+            <option value="Iron Fist">Iron Fist</option>
+            <option value="Iron Man">Iron Man</option>
+            <option value="Jessica Jones">Jessica Jones</option>
+            <option value="Loki">Loki</option>
+            <option value="Luke Cage">Luke Cage</option>
+            <option value="One Shots">One Shots</option>
+            <option value="Spider-Man (Andrew Garfield)">Spider-Man (Andrew Garfield)</option>
+            <option value="Spider-Man (Tobey Maguire)">Spider-Man (Tobey Maguire)</option>
+            <option value="Spider-Man (Tom Holland)">Spider-Man (Tom Holland)</option>
+            <option value="Spider-Verse">Spider-Verse</option>
+            <option value="The Marvels">The Marvels</option>
+            <option value="The Punisher">The Punisher</option>
+            <option value="Thor">Thor</option>
+            <option value="Venom">Venom</option>
+            <option value="WandaVision">WandaVision</option>
+            <option value="What If...?">What If...?</option>
+            <option value="Wolverine">Wolverine</option>
+            <option value="X-Men (Originals)">X-Men (Originals)</option>
+            <option value="X-Men (Prequels)">X-Men (Prequels)</option>
+        </select>
+        <select id="yearFilter">
+            <option value="all">All Years</option>
+            <option value="2000">2000</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+        </select>
+        <select id="mediumFilter">
+            <option value="all">All Mediums</option>
+            <option value="Live Action">Live Action</option>
+            <option value="Animation">Animation</option>
+        </select>
+        <select id="orderingDropdown">
+            <option value="ranking">Ranking Order</option>
+            <option value="release">Release Order</option>
+        </select>
+        <a href="starwars.html">Star Wars Ranking</a>
+    </div>
+    <div id="rankingContainer"></div>
+    <div class="filters">
+        <p>Average Rating: <img id="avgRatingImg" src="imgs/icons/brilliant.png"/></p>
+    </div>
+    <div id="episodeModal" class="modal hidden">
+        <div class="modal-content">
+            <button id="closeModal">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <table id="episodeTable"></table>
+        </div>
+    </div>
+    <script src="entries_mcu.js"></script>
+    <script src="script.js"></script>
+</html>

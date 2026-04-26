@@ -1,0 +1,244 @@
+body {
+    background: #303030;
+    font-family: 'Inter', sans-serif;
+}
+
+.filters {
+    margin-bottom: 30px;   /* space between filters and entries */
+    display: flex;
+    gap: 15px;             /* space between dropdowns */
+    flex-wrap: wrap;
+    color: white;
+}
+
+.filters select {
+    padding: 8px 14px;
+    font-size: 14px;
+
+    border-radius: 6px;
+    border: 1px solid #444;
+
+    background-color: #1c1c1c;
+    color: white;
+
+    cursor: pointer;
+}
+
+.filters select:hover {
+    border-color: #888;
+}
+
+.filters select:focus {
+    outline: none;
+    border-color: #aaa;
+    box-shadow: 0 0 6px rgba(255,255,255,0.2);
+}
+
+#rankingContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.ranking-card {
+    background: #111;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.ranking-card {
+  opacity: 0; /* start hidden */
+}
+
+.ranking-card > .poster {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card-inner {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ranking-card:hover .card-inner {
+  transform: scale(1.04) translateY(-4px);
+}
+
+.poster {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+.poster-container {
+    position: relative;
+}
+
+.tier-icon {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 25px;
+    height: 25px;
+
+    transform: translate(-50%, -50%);  /* 👈 THE KEY LINE */
+
+    z-index: 10;
+}
+
+a {
+    color: white;
+}
+
+#avgRatingImg {
+    height: 1.75em;
+    vertical-align: middle;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.25s ease;
+  z-index: 1000;
+}
+
+.modal.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
+.modal-content {
+  background: #efefef;
+  padding: 25px;
+  border-radius: 12px;
+  width: 750px;
+  max-height: 80vh;
+  overflow-y: auto;
+
+  transform: translateY(20px) scale(0.96);
+  opacity: 0;
+
+  transition: transform 0.3s cubic-bezier(.2,.8,.2,1),
+              opacity 0.3s ease;
+}
+
+.modal.show .modal-content {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+
+#closeModal {
+  float: right;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  color: white;
+}
+
+th {
+  border-bottom: 1px solid #444;
+  color: black;
+}
+
+.episode-tier-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+#episodeTable td,
+#episodeTable th {
+  vertical-align: middle;
+}
+
+.episode-tier-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+
+  display: block;      /* important */
+  margin: 0 auto;      /* keeps it centered horizontally */
+}
+
+
+#episodeTable td:last-child,
+#episodeTable th:last-child {
+  text-align: center;
+}
+
+.tier-brilliant {
+    background: linear-gradient(135deg,rgba(18, 79, 71, 1) 0%, rgba(134, 235, 218, 1) 100%);
+}
+
+.tier-great {
+    background: linear-gradient(135deg,rgba(64, 77, 99, 1) 0%, rgba(162, 198, 245, 1) 100%);
+}
+
+.tier-best {
+    background: linear-gradient(135deg,rgba(46, 89, 23, 1) 0%, rgba(186, 232, 139, 1) 100%);
+}
+
+.tier-excellent {
+    background: linear-gradient(135deg,rgba(57, 84, 37, 1) 0%, rgba(176, 211, 142, 1) 100%);
+}
+
+.tier-good {
+    background: linear-gradient(135deg,rgba(69, 79, 50, 1) 0%, rgba(167, 189, 145, 1) 100%);
+}
+
+.tier-book {
+    background: linear-gradient(135deg,rgba(97, 69, 47, 1) 0%, rgba(217, 184, 160, 1) 100%);
+}
+
+.tier-innacuracy {
+    background: linear-gradient(135deg,rgba(143, 110, 13, 1) 0%, rgba(252, 216, 109, 1) 100%);
+}
+
+.tier-mistake {
+    background: linear-gradient(135deg,rgba(161, 86, 26, 1) 0%, rgba(250, 185, 132, 1) 100%);
+}
+
+.tier-miss {
+    background: linear-gradient(135deg,rgba(158, 41, 28, 1) 0%, rgba(255, 161, 150, 1) 100%);
+}
+
+.tier-blunder {
+    background: linear-gradient(135deg,rgba(120, 13, 1, 1) 0%, rgba(207, 75, 60, 1) 100%);
+}
