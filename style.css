@@ -40,6 +40,12 @@ body {
     gap: 20px;
 }
 
+@media (max-width: 500px) {
+  #rankingContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 .ranking-card {
     background: #111;
     color: white;
