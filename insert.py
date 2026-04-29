@@ -1,6 +1,6 @@
 # poster website: http://www.impawards.com
 
-POSITION = 66
+POSITION = 100
 LIST = 'mcu'
 
 with open(f'entries_{LIST}.js', 'r') as f:

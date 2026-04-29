@@ -1,7 +1,7 @@
 # poster website: http://www.impawards.com
 
-STARTING_POSITION = 9
-ENDING_POSITION = 6
+STARTING_POSITION = 7
+ENDING_POSITION = 9
 LIST = 'mcu'
 
 with open(f'entries_{LIST}.js', 'r') as f:
