@@ -8,7 +8,7 @@ const entries = [
         franchise: ["Blade"],
         medium: ["Live Action"],
         year: "1998",
-        ranking: 59,
+        ranking: 60,
         tier: "good",
         poster: "imgs/posters/mcu/blade.jpg"
     },
@@ -21,7 +21,7 @@ const entries = [
         franchise: ["X-Men (Originals)"],
         medium: ["Live Action"],
         year: "2000",
-        ranking: 37,
+        ranking: 38,
         tier: "excellent",
         poster: "imgs/posters/mcu/xmen.jpg"
     },
@@ -34,7 +34,7 @@ const entries = [
         franchise: ["Blade"],
         medium: ["Live Action"],
         year: "2002",
-        ranking: 66,
+        ranking: 67,
         tier: "good",
         poster: "imgs/posters/mcu/blade ii.jpg"
     },
@@ -47,7 +47,7 @@ const entries = [
         franchise: ["Spider-Man (Tobey Maguire)"],
         medium: ["Live Action"],
         year: "2002",
-        ranking: 27,
+        ranking: 28,
         tier: "best",
         poster: "imgs/posters/mcu/spiderman.jpg"
     },
@@ -60,7 +60,7 @@ const entries = [
         franchise: ["Daredevil (Ben Affleck)"],
         medium: ["Live Action"],
         year: "2003",
-        ranking: 103,
+        ranking: 104,
         tier: "mistake",
         poster: "imgs/posters/mcu/daredevil.jpg"
     },
@@ -73,7 +73,7 @@ const entries = [
         franchise: ["X-Men (Originals)"],
         medium: ["Live Action"],
         year: "2003",
-        ranking: 28,
+        ranking: 29,
         tier: "best",
         poster: "imgs/posters/mcu/x2.jpg"
     },
@@ -86,7 +86,7 @@ const entries = [
         franchise: ["Spider-Man (Tobey Maguire)"],
         medium: ["Live Action"],
         year: "2004",
-        ranking: 24,
+        ranking: 25,
         tier: "best",
         poster: "imgs/posters/mcu/spiderman 2.jpg"
     },
@@ -99,7 +99,7 @@ const entries = [
         franchise: ["Blade"],
         medium: ["Live Action"],
         year: "2004",
-        ranking: 100,
+        ranking: 101,
         tier: "mistake",
         poster: "imgs/posters/mcu/blade trinity.jpg"
     },
@@ -112,7 +112,7 @@ const entries = [
         franchise: ["Daredevil (Ben Affleck)"],
         medium: ["Live Action"],
         year: "2005",
-        ranking: 106,
+        ranking: 107,
         tier: "mistake",
         poster: "imgs/posters/mcu/elektra.jpg"
     },
@@ -125,7 +125,7 @@ const entries = [
         franchise: ["Fantastic Four (2005)"],
         medium: ["Live Action"],
         year: "2005",
-        ranking: 64,
+        ranking: 65,
         tier: "good",
         poster: "imgs/posters/mcu/fantastic four 2005.jpg"
     },
@@ -138,7 +138,7 @@ const entries = [
         franchise: ["X-Men (Originals)"],
         medium: ["Live Action"],
         year: "2006",
-        ranking: 82,
+        ranking: 83,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/xmen the last stand.jpg"
     },
@@ -151,7 +151,7 @@ const entries = [
         franchise: ["Spider-Man (Tobey Maguire)"],
         medium: ["Live Action"],
         year: "2006",
-        ranking: 67,
+        ranking: 68,
         tier: "good",
         poster: "imgs/posters/mcu/spiderman 3.jpg"
     },
@@ -164,7 +164,7 @@ const entries = [
         franchise: ["Fantastic Four (2005)"],
         medium: ["Live Action"],
         year: "2007",
-        ranking: 79,
+        ranking: 80,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/fantastic four rise of the silver surfer.jpg"
     },
@@ -177,7 +177,7 @@ const entries = [
         franchise: ["Iron Man"],
         medium: ["Live Action"],
         year: "2008",
-        ranking: 32,
+        ranking: 33,
         tier: "excellent",
         poster: "imgs/posters/mcu/iron man.jpg"
     },
@@ -190,7 +190,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2008",
-        ranking: 99,
+        ranking: 100,
         tier: "mistake",
         poster: "imgs/posters/mcu/the incredible hulk.jpg"
     },
@@ -203,7 +203,7 @@ const entries = [
         franchise: ["Wolverine"],
         medium: ["Live Action"],
         year: "2009",
-        ranking: 94,
+        ranking: 95,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/xmen origins wolverine.jpg"
     },
@@ -216,7 +216,7 @@ const entries = [
         franchise: ["Iron Man"],
         medium: ["Live Action"],
         year: "2010",
-        ranking: 70,
+        ranking: 71,
         tier: "good",
         poster: "imgs/posters/mcu/iron man 2.jpg"
     },
@@ -229,7 +229,7 @@ const entries = [
         franchise: ["Thor"],
         medium: ["Live Action"],
         year: "2011",
-        ranking: 88,
+        ranking: 89,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/thor.jpg"
     },
@@ -242,7 +242,7 @@ const entries = [
         franchise: ["X-Men (Prequels)"],
         medium: ["Live Action"],
         year: "2011",
-        ranking: 33,
+        ranking: 34,
         tier: "excellent",
         poster: "imgs/posters/mcu/xmen first class.jpg"
     },
@@ -255,7 +255,7 @@ const entries = [
         franchise: ["Captain America"],
         medium: ["Live Action"],
         year: "2011",
-        ranking: 55,
+        ranking: 56,
         tier: "good",
         poster: "imgs/posters/mcu/captain america the first avenger.jpg"
     },
@@ -268,7 +268,7 @@ const entries = [
         franchise: ["One Shots"],
         medium: ["Live Action"],
         year: "2011",
-        ranking: 75,
+        ranking: 76,
         tier: "book",
         poster: "imgs/posters/mcu/the consultant.jpg"
     },
@@ -281,7 +281,7 @@ const entries = [
         franchise: ["One Shots"],
         medium: ["Live Action"],
         year: "2011",
-        ranking: 76,
+        ranking: 77,
         tier: "book",
         poster: "imgs/posters/mcu/a funny thing happened on the way to thors hammer.jpg"
     },
@@ -294,7 +294,7 @@ const entries = [
         franchise: ["Avengers"],
         medium: ["Live Action"],
         year: "2012",
-        ranking: 21,
+        ranking: 22,
         tier: "best",
         poster: "imgs/posters/mcu/the avengers.jpg"
     },
@@ -307,7 +307,7 @@ const entries = [
         franchise: ["Spider-Man (Andrew Garfield)"],
         medium: ["Live Action"],
         year: "2012",
-        ranking: 60,
+        ranking: 61,
         tier: "good",
         poster: "imgs/posters/mcu/the amazing spiderman.jpg"
     },
@@ -320,7 +320,7 @@ const entries = [
         franchise: ["One Shots"],
         medium: ["Live Action"],
         year: "2012",
-        ranking: 78,
+        ranking: 79,
         tier: "book",
         poster: "imgs/posters/mcu/item 47.jpg"
     },
@@ -333,7 +333,7 @@ const entries = [
         franchise: ["Iron Man"],
         medium: ["Live Action"],
         year: "2013",
-        ranking: 46,
+        ranking: 47,
         tier: "good",
         poster: "imgs/posters/mcu/iron man 3.jpg"
     },
@@ -346,7 +346,7 @@ const entries = [
         franchise: ["Wolverine"],
         medium: ["Live Action"],
         year: "2013",
-        ranking: 43,
+        ranking: 44,
         tier: "excellent",
         poster: "imgs/posters/mcu/the wolverine.jpg"
     },
@@ -359,7 +359,7 @@ const entries = [
         franchise: ["One Shots"],
         medium: ["Live Action"],
         year: "2013",
-        ranking: 73,
+        ranking: 74,
         tier: "book",
         poster: "imgs/posters/mcu/agent carter.jpg"
     },
@@ -372,7 +372,7 @@ const entries = [
         franchise: ["Thor"],
         medium: ["Live Action"],
         year: "2013",
-        ranking: 105,
+        ranking: 106,
         tier: "mistake",
         poster: "imgs/posters/mcu/thor the dark world.jpg"
     },
@@ -385,7 +385,7 @@ const entries = [
         franchise: ["One Shots"],
         medium: ["Live Action"],
         year: "2014",
-        ranking: 72,
+        ranking: 73,
         tier: "book",
         poster: "imgs/posters/mcu/all hail the king.jpg"
     },
@@ -398,7 +398,7 @@ const entries = [
         franchise: ["Captain America"],
         medium: ["Live Action"],
         year: "2014",
-        ranking: 16,
+        ranking: 17,
         tier: "great",
         poster: "imgs/posters/mcu/captain america the winter soldier.jpg"
     },
@@ -411,7 +411,7 @@ const entries = [
         franchise: ["Spider-Man (Andrew Garfield)"],
         medium: ["Live Action"],
         year: "2014",
-        ranking: 84,
+        ranking: 85,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/the amazing spiderman 2.jpg"
     },
@@ -437,7 +437,7 @@ const entries = [
         franchise: ["Guardians of the Galaxy"],
         medium: ["Live Action"],
         year: "2014",
-        ranking: 20,
+        ranking: 21,
         tier: "best",
         poster: "imgs/posters/mcu/guardians of the galaxy.jpg"
     },
@@ -450,7 +450,7 @@ const entries = [
         franchise: ["Daredevil (Charlie Cox)"],
         medium: ["Live Action"],
         year: "2015",
-        ranking: 12,
+        ranking: 16,
         tier: "great",
         poster: "imgs/posters/mcu/daredevil season 1.jpg",
         episodes: [
@@ -478,7 +478,7 @@ const entries = [
         franchise: ["Avengers"],
         medium: ["Live Action"],
         year: "2015",
-        ranking: 35,
+        ranking: 36,
         tier: "excellent",
         poster: "imgs/posters/mcu/avengers age of ultron.jpg"
     },
@@ -491,7 +491,7 @@ const entries = [
         franchise: ["Ant-Man"],
         medium: ["Live Action"],
         year: "2015",
-        ranking: 53,
+        ranking: 54,
         tier: "good",
         poster: "imgs/posters/mcu/antman.jpg"
     },
@@ -504,7 +504,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2015",
-        ranking: 113,
+        ranking: 114,
         tier: "blunder",
         poster: "imgs/posters/mcu/fantastic four 2015.jpg"
     },
@@ -517,7 +517,7 @@ const entries = [
         franchise: ["Jessica Jones"],
         medium: ["Live Action"],
         year: "2015",
-        ranking: 26,
+        ranking: 27,
         tier: "best",
         poster: "imgs/posters/mcu/jessica jones season 1.jpg",
         episodes: [
@@ -545,7 +545,7 @@ const entries = [
         franchise: ["Deadpool"],
         medium: ["Live Action"],
         year: "2016",
-        ranking: 23,
+        ranking: 24,
         tier: "best",
         poster: "imgs/posters/mcu/deadpool.jpg"
     },
@@ -558,7 +558,7 @@ const entries = [
         franchise: ["Daredevil (Charlie Cox)"],
         medium: ["Live Action"],
         year: "2016",
-        ranking: 29,
+        ranking: 30,
         tier: "best",
         poster: "imgs/posters/mcu/daredevil season 2.jpg",
         episodes: [
@@ -586,7 +586,7 @@ const entries = [
         franchise: ["Captain America"],
         medium: ["Live Action"],
         year: "2016",
-        ranking: 15,
+        ranking: 13,
         tier: "great",
         poster: "imgs/posters/mcu/captain america civil war.jpg"
     },
@@ -599,7 +599,7 @@ const entries = [
         franchise: ["X-Men (Prequels)"],
         medium: ["Live Action"],
         year: "2016",
-        ranking: 63,
+        ranking: 64,
         tier: "good",
         poster: "imgs/posters/mcu/xmen apocalypse.jpg"
     },
@@ -612,7 +612,7 @@ const entries = [
         franchise: ["Luke Cage"],
         medium: ["Live Action"],
         year: "2016",
-        ranking: 92,
+        ranking: 93,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/luke cage season 1.jpg",
         episodes: [
@@ -640,7 +640,7 @@ const entries = [
         franchise: ["Doctor Strange"],
         medium: ["Live Action"],
         year: "2016",
-        ranking: 42,
+        ranking: 43,
         tier: "excellent",
         poster: "imgs/posters/mcu/doctor strange.jpg"
     },
@@ -653,7 +653,7 @@ const entries = [
         franchise: ["Wolverine"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 14,
+        ranking: 15,
         tier: "great",
         poster: "imgs/posters/mcu/logan.jpg"
     },
@@ -666,7 +666,7 @@ const entries = [
         franchise: ["Iron Fist"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 80,
+        ranking: 81,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/iron fist season 1.jpg",
         episodes: [
@@ -694,7 +694,7 @@ const entries = [
         franchise: ["Guardians of the Galaxy"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 50,
+        ranking: 51,
         tier: "good",
         poster: "imgs/posters/mcu/guardians of the galaxy vol 2.jpg"
     },
@@ -707,7 +707,7 @@ const entries = [
         franchise: ["Spider-Man (Tom Holland)"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 56,
+        ranking: 57,
         tier: "good",
         poster: "imgs/posters/mcu/spiderman homecoming.jpg"
     },
@@ -720,7 +720,7 @@ const entries = [
         year: "2017",
         franchise: [],
         medium: ["Live Action"],
-        ranking: 51,
+        ranking: 52,
         tier: "good",
         poster: "imgs/posters/mcu/the defenders.jpg",
         episodes: [
@@ -743,7 +743,7 @@ const entries = [
         franchise: ["Thor"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 54,
+        ranking: 55,
         tier: "good",
         poster: "imgs/posters/mcu/thor ragnarok.jpg"
     },
@@ -756,7 +756,7 @@ const entries = [
         franchise: ["The Punisher"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 25,
+        ranking: 26,
         tier: "best",
         poster: "imgs/posters/mcu/the punisher season 1.jpg",
         episodes: [
@@ -784,7 +784,7 @@ const entries = [
         franchise: ["Black Panther"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 31,
+        ranking: 32,
         tier: "excellent",
         poster: "imgs/posters/mcu/black panther.jpg"
     },
@@ -797,7 +797,7 @@ const entries = [
         franchise: ["Jessica Jones"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 95,
+        ranking: 96,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/jessica jones season 2.jpg",
         episodes: [
@@ -838,7 +838,7 @@ const entries = [
         franchise: ["Deadpool"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 36,
+        ranking: 37,
         tier: "excellent",
         poster: "imgs/posters/mcu/deadpool 2.jpg"
     },
@@ -851,7 +851,7 @@ const entries = [
         franchise: ["Luke Cage"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 98,
+        ranking: 99,
         tier: "mistake",
         poster: "imgs/posters/mcu/luke cage season 2.jpg",
         episodes: [
@@ -879,7 +879,7 @@ const entries = [
         franchise: ["Ant-Man"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 61,
+        ranking: 62,
         tier: "good",
         poster: "imgs/posters/mcu/antman and the wasp.jpg"
     },
@@ -892,7 +892,7 @@ const entries = [
         franchise: ["Iron Fist"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 89,
+        ranking: 90,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/iron fist season 2.jpg",
         episodes: [
@@ -917,7 +917,7 @@ const entries = [
         franchise: ["Venom"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 87,
+        ranking: 88,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/venom.jpg"
     },
@@ -936,13 +936,13 @@ const entries = [
         episodes: [
             {number: 1, title: "Resurrection", tier: "great"},
             {number: 2, title: "Please", tier: "great"},
-            {number: 3, title: "No Good Deed", tier: "great"},
+            {number: 3, title: "No Good Deed", tier: "best"},
             {number: 4, title: "Blindsided", tier: "brilliant"},
             {number: 5, title: "The Perfect Game", tier: "great"},
             {number: 6, title: "The Devil You Know", tier: "brilliant"},
             {number: 7, title: "Aftermath", tier: "best"},
-            {number: 8, title: "Upstairs/Downstairs", tier: "best"},
-            {number: 9, title: "Revelations", tier: "best"},
+            {number: 8, title: "Upstairs/Downstairs", tier: "great"},
+            {number: 9, title: "Revelations", tier: "great"},
             {number: 10, title: "Karen", tier: "great"},
             {number: 11, title: "Reunion", tier: "great"},
             {number: 12, title: "One Last Shot", tier: "great"},
@@ -958,7 +958,7 @@ const entries = [
         franchise: ["Spider-Verse"],
         medium: ["Animation"],
         year: "2018",
-        ranking: 13,
+        ranking: 12,
         tier: "great",
         poster: "imgs/posters/mcu/spiderman into the spiderverse.jpg"
     },
@@ -971,7 +971,7 @@ const entries = [
         franchise: ["The Punisher"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 34,
+        ranking: 35,
         tier: "excellent",
         poster: "imgs/posters/mcu/the punisher season 2.jpg",
         episodes: [
@@ -999,7 +999,7 @@ const entries = [
         franchise: ["The Marvels"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 62,
+        ranking: 63,
         tier: "good",
         poster: "imgs/posters/mcu/captain marvel.jpg"
     },
@@ -1025,7 +1025,7 @@ const entries = [
         franchise: ["X-Men (Prequels)"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 90,
+        ranking: 91,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/dark phoenix.jpg"
     },
@@ -1038,7 +1038,7 @@ const entries = [
         franchise: ["Jessica Jones"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 86,
+        ranking: 87,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/jessica jones season 3.jpg",
         episodes: [
@@ -1066,7 +1066,7 @@ const entries = [
         franchise: ["Spider-Man (Tom Holland)"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 48,
+        ranking: 49,
         tier: "good",
         poster: "imgs/posters/mcu/spiderman far from home.jpg"
     },
@@ -1079,7 +1079,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2020",
-        ranking: 101,
+        ranking: 102,
         tier: "mistake",
         poster: "imgs/posters/mcu/the new mutants.jpg"
     },
@@ -1102,7 +1102,7 @@ const entries = [
             {number: 4, title: "We Interrupt This Program", tier: "brilliant"},
             {number: 5, title: "On a Very Special Episode...", tier: "brilliant"},
             {number: 6, title: "All-New Halloween Spooktacular!", tier: "brilliant"},
-            {number: 7, title: "Breaking the Fourth Wall", tier: "best"},
+            {number: 7, title: "Breaking the Fourth Wall", tier: "great"},
             {number: 8, title: "Previously On", tier: "brilliant"},
             {number: 9, title: "The Series Finale", tier: "best"}
         ]
@@ -1116,7 +1116,7 @@ const entries = [
         franchise: ["Captain America"],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 57,
+        ranking: 58,
         tier: "good",
         poster: "imgs/posters/mcu/the falcon and the winter soldier.jpg",
         episodes: [
@@ -1158,7 +1158,7 @@ const entries = [
         year: "2021",
         franchise: [],
         medium: ["Live Action"],
-        ranking: 47,
+        ranking: 48,
         tier: "good",
         poster: "imgs/posters/mcu/black widow.jpg"
     },
@@ -1171,7 +1171,7 @@ const entries = [
         franchise: ["What If...?"],
         medium: ["Animation"],
         year: "2021",
-        ranking: 107,
+        ranking: 108,
         tier: "miss",
         poster: "imgs/posters/mcu/what if season 1.jpg",
         episodes: [
@@ -1195,7 +1195,7 @@ const entries = [
         year: "2021",
         franchise: [],
         medium: ["Live Action"],
-        ranking: 17,
+        ranking: 18,
         tier: "best",
         poster: "imgs/posters/mcu/shangchi and the legend of the ten rings.jpg"
     },
@@ -1208,7 +1208,7 @@ const entries = [
         franchise: ["Venom"],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 96,
+        ranking: 97,
         tier: "mistake",
         poster: "imgs/posters/mcu/venom let there be carnage.jpg"
     },
@@ -1221,7 +1221,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 52,
+        ranking: 53,
         tier: "good",
         poster: "imgs/posters/mcu/eternals.jpg"
     },
@@ -1234,7 +1234,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 58,
+        ranking: 59,
         tier: "good",
         poster: "imgs/posters/mcu/hawkeye.jpg",
         episodes: [
@@ -1268,7 +1268,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 39,
+        ranking: 40,
         tier: "excellent",
         poster: "imgs/posters/mcu/moon knight.jpg",
         episodes: [
@@ -1289,7 +1289,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 111,
+        ranking: 112,
         tier: "blunder",
         poster: "imgs/posters/mcu/morbius.jpg"
     },
@@ -1302,7 +1302,7 @@ const entries = [
         franchise: ["Doctor Strange"],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 40,
+        ranking: 41,
         tier: "excellent",
         poster: "imgs/posters/mcu/doctor strange in the multiverse of madness.jpg"
     },
@@ -1315,7 +1315,7 @@ const entries = [
         franchise: ["The Marvels"],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 65,
+        ranking: 66,
         tier: "good",
         poster: "imgs/posters/mcu/ms marvel.jpg",
         episodes: [
@@ -1336,7 +1336,7 @@ const entries = [
         franchise: ["Thor"],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 97,
+        ranking: 98,
         tier: "mistake",
         poster: "imgs/posters/mcu/thor love and thunder.jpg"
     },
@@ -1349,7 +1349,7 @@ const entries = [
         franchise: ["I Am Groot"],
         medium: ["Animation"],
         year: "2022",
-        ranking: 74,
+        ranking: 75,
         tier: "book",
         poster: "imgs/posters/mcu/i am groot season 1.jpg",
         episodes: [
@@ -1369,7 +1369,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 104,
+        ranking: 105,
         tier: "mistake",
         poster: "imgs/posters/mcu/shehulk attorney at law.jpg",
         episodes: [
@@ -1393,7 +1393,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 44,
+        ranking: 45,
         tier: "excellent",
         poster: "imgs/posters/mcu/werewolf by night.jpg"
     },
@@ -1406,7 +1406,7 @@ const entries = [
         franchise: ["Black Panther"],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 41,
+        ranking: 42,
         tier: "excellent",
         poster: "imgs/posters/mcu/black panther wakanda forever.jpg"
     },
@@ -1419,7 +1419,7 @@ const entries = [
         franchise: ["Guardians of the Galaxy"],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 45,
+        ranking: 46,
         tier: "excellent",
         poster: "imgs/posters/mcu/the guardians of the galaxy holiday special.jpg"
     },
@@ -1432,7 +1432,7 @@ const entries = [
         franchise: ["Ant-Man"],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 68,
+        ranking: 69,
         tier: "good",
         poster: "imgs/posters/mcu/antman and the wasp quantumania.jpg"
     },
@@ -1471,7 +1471,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 108,
+        ranking: 109,
         tier: "miss",
         poster: "imgs/posters/mcu/secret invasion.jpg",
         episodes: [
@@ -1492,7 +1492,7 @@ const entries = [
         franchise: ["I Am Groot"],
         medium: ["Animation"],
         year: "2023",
-        ranking: 77,
+        ranking: 78,
         tier: "book",
         poster: "imgs/posters/mcu/i am groot season 2.jpg",
         episodes: [
@@ -1533,7 +1533,7 @@ const entries = [
         franchise: ["The Marvels"],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 81,
+        ranking: 82,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/the marvels.jpg"
     },
@@ -1546,7 +1546,7 @@ const entries = [
         franchise: ["What If...?"],
         medium: ["Animation"],
         year: "2023",
-        ranking: 109,
+        ranking: 110,
         tier: "blunder",
         poster: "imgs/posters/mcu/what if season 2.jpg",
         episodes: [
@@ -1570,7 +1570,7 @@ const entries = [
         franchise: ["Daredevil (Charlie Cox)"],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 91,
+        ranking: 92,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/echo.jpg",
         episodes: [
@@ -1590,7 +1590,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 110,
+        ranking: 111,
         tier: "blunder",
         poster: "imgs/posters/mcu/madame web.jpg"
     },
@@ -1603,7 +1603,7 @@ const entries = [
         franchise: ["Deadpool"],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 19,
+        ranking: 20,
         tier: "best",
         poster: "imgs/posters/mcu/deadpool and wolverine.jpg"
     },
@@ -1616,7 +1616,7 @@ const entries = [
         franchise: ["WandaVision"],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 22,
+        ranking: 23,
         tier: "best",
         poster: "imgs/posters/mcu/agatha all along.jpg",
         episodes: [
@@ -1640,7 +1640,7 @@ const entries = [
         franchise: ["Venom"],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 85,
+        ranking: 86,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/venom the last dance.jpg"
     },
@@ -1653,7 +1653,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 83,
+        ranking: 84,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/kraven the hunter.jpg"
     },
@@ -1666,7 +1666,7 @@ const entries = [
         franchise: ["What If...?"],
         medium: ["Animation"],
         year: "2024",
-        ranking: 112,
+        ranking: 113,
         tier: "blunder",
         poster: "imgs/posters/mcu/what if season 3.jpg",
         episodes: [
@@ -1689,7 +1689,7 @@ const entries = [
         franchise: ["Spider-Man (YFNSM)"],
         medium: ["Animation"],
         year: "2025",
-        ranking: 49,
+        ranking: 50,
         tier: "good",
         poster: "imgs/posters/mcu/your friendly neighborhood spiderman season 1.jpg",
         episodes: [
@@ -1714,7 +1714,7 @@ const entries = [
         franchise: ["Captain America"],
         medium: ["Live Action"],
         year: "2025",
-        ranking: 69,
+        ranking: 70,
         tier: "good",
         poster: "imgs/posters/mcu/captain america brave new world.jpg"
     },
@@ -1727,7 +1727,7 @@ const entries = [
         franchise: ["Daredevil (Charlie Cox)"],
         medium: ["Live Action"],
         year: "2025",
-        ranking: 38,
+        ranking: 39,
         tier: "excellent",
         poster: "imgs/posters/mcu/daredevil born again season 1.jpg",
         episodes: [
@@ -1764,7 +1764,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2025",
-        ranking: 71,
+        ranking: 72,
         tier: "good",
         poster: "imgs/posters/mcu/ironheart.jpg",
         episodes: [
@@ -1785,7 +1785,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2025",
-        ranking: 18,
+        ranking: 19,
         tier: "best",
         poster: "imgs/posters/mcu/the fantastic four first steps.jpg"
     },
@@ -1798,7 +1798,7 @@ const entries = [
         franchise: ["Black Panther"],
         medium: ["Animation"],
         year: "2025",
-        ranking: 93,
+        ranking: 94,
         tier: "innacuracy",
         poster: "imgs/posters/mcu/eyes of wakanda.jpg",
         episodes: [
@@ -1817,7 +1817,7 @@ const entries = [
         franchise: ["What If...?"],
         medium: ["Animation"],
         year: "2025",
-        ranking: 102,
+        ranking: 103,
         tier: "mistake",
         poster: "imgs/posters/mcu/marvel zombies season 1.jpg",
         episodes: [
@@ -1836,7 +1836,7 @@ const entries = [
         franchise: ["Wonder Man"],
         medium: ["Live Action"],
         year: "2026",
-        ranking: 30,
+        ranking: 31,
         tier: "best",
         poster: "imgs/posters/mcu/wonder man season 1.jpg",
         episodes: [
@@ -1847,7 +1847,30 @@ const entries = [
             {number: 5, title: "Found Footage", tier: "excellent"},
             {number: 6, title: "Callback", tier: "great"},
             {number: 7, title: "Kathy Friedman", tier: "best"},
-            {number: 8, title: "Yucca Valley", tier: "great"},
+            {number: 8, title: "Yucca Valley", tier: "great"}
+        ]
+    },
+    {
+        title: "Daredevil: Born Again [Season 2]",
+        type: "TV Show",
+        universe: ["MCU"],
+        phase: ["6"],
+        saga: ["Multiverse"],
+        franchise: ["Daredevil (Charlie Cox)"],
+        medium: ["Live Action"],
+        year: "2026",
+        ranking: 14,
+        tier: "great",
+        poster: "imgs/posters/mcu/daredevil born again season 2.jpg",
+        episodes: [
+            {number: 1, title: "The Northern Star", tier: "best"},
+            {number: 2, title: "Shoot the Moon", tier: "excellent"},
+            {number: 3, title: "The Scales & The Sword", tier: "great"},
+            {number: 4, title: "Gloves Off", tier: "great"},
+            {number: 5, title: "The Grand Design", tier: "brilliant"},
+            {number: 6, title: "Requiem", tier: "brilliant"},
+            {number: 7, title: "The Hateful Darkness", tier: "great"},
+            {number: 8, title: "The Southern Cross", tier: "brilliant"}
         ]
     }
 ]
