@@ -6,7 +6,7 @@ const entries = [
         franchise: ["Original Trilogy"],
         medium: ["Live Action"],
         year: "1977",
-        ranking: 6,
+        ranking: 7,
         tier: "best",
         poster: "imgs/posters/star wars/episode 4 a new hope.jpg"
     },
@@ -22,13 +22,24 @@ const entries = [
         poster: "imgs/posters/star wars/episode 5 the empire strikes back.jpg"
     },
     {
+        title: "Star Wars: Episode VI - Return of the Jedi",
+        type: "Movie",
+        saga: ["Skywalker"],
+        franchise: ["Original Trilogy"],
+        medium: ["Live Action"],
+        year: "1983",
+        ranking: 6,
+        tier: "best",
+        poster: "imgs/posters/star wars/episode 6 return of the jedi.jpg"
+    },
+    {
         title: "Star Wars: Episode I - The Phantom Menace",
         type: "Movie",
         saga: ["Skywalker"],
         franchise: ["Prequel Trilogy"],
         medium: ["Live Action"],
         year: "1999",
-        ranking: 12,
+        ranking: 13,
         tier: "good",
         poster: "imgs/posters/star wars/episode 1 the phantom menace.jpg"
     },
@@ -39,7 +50,7 @@ const entries = [
         franchise: ["Prequel Trilogy"],
         medium: ["Live Action"],
         year: "2002",
-        ranking: 9,
+        ranking: 10,
         tier: "excellent",
         poster: "imgs/posters/star wars/episode 2 attack of the clones.jpg"
     },
@@ -72,7 +83,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 15,
+        ranking: 16,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/solo.jpg"
     },
@@ -83,7 +94,7 @@ const entries = [
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 11,
+        ranking: 12,
         tier: "good",
         poster: "imgs/posters/star wars/the mandalorian season 1.jpg",
         episodes: [
@@ -104,7 +115,7 @@ const entries = [
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2020",
-        ranking: 7,
+        ranking: 8,
         tier: "best",
         poster: "imgs/posters/star wars/the mandalorian season 2.jpg",
         episodes: [
@@ -125,7 +136,7 @@ const entries = [
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 14,
+        ranking: 15,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/the book of boba fett.jpg",
         episodes: [
@@ -170,7 +181,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2022",
-        ranking: 8,
+        ranking: 9,
         tier: "excellent",
         poster: "imgs/posters/star wars/obi wan kenobi.jpg",
         episodes: [
@@ -189,7 +200,7 @@ const entries = [
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 13,
+        ranking: 14,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/the mandalorian season 3.jpg",
         episodes: [
@@ -210,7 +221,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 10,
+        ranking: 11,
         tier: "good",
         poster: "imgs/posters/star wars/ahsoka season 1.jpg",
         episodes: [
@@ -231,7 +242,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 17,
+        ranking: 18,
         tier: "mistake",
         poster: "imgs/posters/star wars/the acolyte.jpg",
         episodes: [
@@ -252,7 +263,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 16,
+        ranking: 17,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/skeleton crew.jpg",
         episodes: [
