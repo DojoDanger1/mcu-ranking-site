@@ -930,7 +930,7 @@ const entries = [
         franchise: ["Daredevil (Charlie Cox)"],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 9,
+        ranking: 8,
         tier: "great",
         poster: "imgs/posters/mcu/daredevil season 3.jpg",
         episodes: [
@@ -1137,7 +1137,7 @@ const entries = [
         franchise: ["Loki"],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 8,
+        ranking: 9,
         tier: "great",
         poster: "imgs/posters/mcu/loki season 1.jpg",
         episodes: [
