@@ -39,7 +39,7 @@ const entries = [
         franchise: ["Prequel Trilogy"],
         medium: ["Live Action"],
         year: "1999",
-        ranking: 13,
+        ranking: 14,
         tier: "good",
         poster: "imgs/posters/star wars/episode 1 the phantom menace.jpg"
     },
@@ -83,7 +83,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2018",
-        ranking: 16,
+        ranking: 17,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/solo.jpg"
     },
@@ -94,7 +94,7 @@ const entries = [
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2019",
-        ranking: 12,
+        ranking: 13,
         tier: "good",
         poster: "imgs/posters/star wars/the mandalorian season 1.jpg",
         episodes: [
@@ -136,7 +136,7 @@ const entries = [
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2021",
-        ranking: 15,
+        ranking: 16,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/the book of boba fett.jpg",
         episodes: [
@@ -147,6 +147,25 @@ const entries = [
             {number: 5, title: "Chapter 5: Return of the Mandalorian", tier: "excellent"},
             {number: 6, title: "Chapter 6: From the Desert Comes a Stranger", tier: "excellent"},
             {number: 7, title: "Chapter 7: In the Name of Honor", tier: "good"}
+        ]
+    },
+    {
+        title: "Obi-Wan Kenobi",
+        type: "TV Show",
+        saga: [],
+        franchise: [],
+        medium: ["Live Action"],
+        year: "2022",
+        ranking: 9,
+        tier: "excellent",
+        poster: "imgs/posters/star wars/obi wan kenobi.jpg",
+        episodes: [
+            {number: 1, title: "Part I", tier: "good"},
+            {number: 2, title: "Part II", tier: "excellent"},
+            {number: 3, title: "Part III", tier: "best"},
+            {number: 4, title: "Part IV", tier: "excellent"},
+            {number: 5, title: "Part V", tier: "excellent"},
+            {number: 6, title: "Part VI", tier: "great"}
         ]
     },
     {
@@ -175,32 +194,13 @@ const entries = [
         ]
     },
     {
-        title: "Obi-Wan Kenobi",
-        type: "TV Show",
-        saga: [],
-        franchise: [],
-        medium: ["Live Action"],
-        year: "2022",
-        ranking: 9,
-        tier: "excellent",
-        poster: "imgs/posters/star wars/obi wan kenobi.jpg",
-        episodes: [
-            {number: 1, title: "Part I", tier: "good"},
-            {number: 2, title: "Part II", tier: "excellent"},
-            {number: 3, title: "Part III", tier: "best"},
-            {number: 4, title: "Part IV", tier: "excellent"},
-            {number: 5, title: "Part V", tier: "excellent"},
-            {number: 6, title: "Part VI", tier: "great"}
-        ]
-    },
-    {
         title: "The Mandalorian [Season 3]",
         type: "TV Show",
         saga: ["Filoni-Verse"],
         franchise: ["The Mandalorian"],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 14,
+        ranking: 15,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/the mandalorian season 3.jpg",
         episodes: [
@@ -221,7 +221,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2023",
-        ranking: 11,
+        ranking: 12,
         tier: "good",
         poster: "imgs/posters/star wars/ahsoka season 1.jpg",
         episodes: [
@@ -242,7 +242,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 18,
+        ranking: 19,
         tier: "mistake",
         poster: "imgs/posters/star wars/the acolyte.jpg",
         episodes: [
@@ -263,7 +263,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 17,
+        ranking: 18,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/skeleton crew.jpg",
         episodes: [
@@ -301,5 +301,16 @@ const entries = [
             {number: 11, title: "Who Else Knows?", tier: "brilliant"},
             {number: 12, title: "Jedha, Kyber, Erso", tier: "great"},
         ]
+    },
+    {
+        title: "The Mandalorian and Grogu",
+        type: "Movie",
+        saga: ["Filoni-Verse"],
+        franchise: ["The Mandalorian"],
+        medium: ["Live Action"],
+        year: "2026",
+        ranking: 11,
+        tier: "good",
+        poster: "imgs/posters/star wars/the mandalorian and grogu.jpg"
     }
 ]

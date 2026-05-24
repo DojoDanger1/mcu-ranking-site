@@ -1,7 +1,7 @@
 # poster website: http://www.impawards.com
 
-POSITION = 31
-LIST = 'mcu'
+POSITION = 11
+LIST = 'starwars'
 
 with open(f'entries_{LIST}.js', 'r') as f:
     lines = f.readlines()
