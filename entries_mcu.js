@@ -1196,7 +1196,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         ranking: 18,
-        tier: "best",
+        tier: "great",
         poster: "imgs/posters/mcu/shangchi and the legend of the ten rings.jpg"
     },
     {

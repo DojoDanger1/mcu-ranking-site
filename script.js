@@ -6,6 +6,7 @@ function getFilteredEntries() {
     const franchiseValue = document.getElementById("franchiseFilter").value;
     const yearValue = document.getElementById("yearFilter").value;
     const mediumValue = document.getElementById("mediumFilter").value;
+    const ratingValue = document.getElementById("ratingFilter").value;
 
     return entries.filter(entry => {
         const typeMatch = typeValue === "all" || entry.type.includes(typeValue);
@@ -15,8 +16,9 @@ function getFilteredEntries() {
         const franchiseMatch = franchiseValue === "all" || entry.franchise.includes(franchiseValue);
         const yearMatch = yearValue === "all" || entry.year.includes(yearValue);
         const mediumMatch = mediumValue === "all" || entry.medium.includes(mediumValue);
+        const ratingMatch = ratingValue === "all" || entry.tier.includes(ratingValue);
 
-        return typeMatch && universeMatch && sagaMatch && phaseMatch && franchiseMatch && yearMatch && mediumMatch;
+        return typeMatch && universeMatch && sagaMatch && phaseMatch && franchiseMatch && yearMatch && mediumMatch && ratingMatch;
     });
 }
 
@@ -175,6 +177,7 @@ document.getElementById("phaseFilter").addEventListener("change", renderRankings
 document.getElementById("franchiseFilter").addEventListener("change", renderRankings);
 document.getElementById("yearFilter").addEventListener("change", renderRankings);
 document.getElementById("mediumFilter").addEventListener("change", renderRankings);
+document.getElementById("ratingFilter").addEventListener("change", renderRankings);
 document.getElementById("orderingDropdown").addEventListener("change", renderRankings);
 
 // Initial render
