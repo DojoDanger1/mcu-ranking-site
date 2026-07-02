@@ -25,6 +25,8 @@ function getFilteredEntries() {
 function sortByRating(data) {
     if (document.getElementById("orderingDropdown").value === "ranking") {
         return data.sort((a, b) => a.ranking - b.ranking);
+    } else if (document.getElementById("orderingDropdown").value === "timeline") {
+        return data.sort((a, b) => a.timeline - b.timeline);
     } else {
         return data;
     }

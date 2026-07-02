@@ -2,13 +2,14 @@
 
 POSITION = 11
 LIST = 'starwars'
+TYPE = 'ranking' # ranking or timeline
 
 with open(f'entries_{LIST}.js', 'r') as f:
     lines = f.readlines()
 
 newlines = []
 for line in lines:
-    if 'ranking' in line:
+    if TYPE in line:
         ranking = int(line.split(':')[1][1:].replace(',','').replace('\n',''))
         if ranking >= POSITION:
             newLine = line.split(':')[0] + ': ' + str(ranking+1) + ',\n'

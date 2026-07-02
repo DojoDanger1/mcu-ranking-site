@@ -7,6 +7,7 @@ const entries = [
         medium: ["Live Action"],
         year: "1977",
         ranking: 7,
+        timeline: 10,
         tier: "best",
         poster: "imgs/posters/star wars/episode 4 a new hope.jpg"
     },
@@ -18,6 +19,7 @@ const entries = [
         medium: ["Live Action"],
         year: "1980",
         ranking: 5,
+        timeline: 11,
         tier: "great",
         poster: "imgs/posters/star wars/episode 5 the empire strikes back.jpg"
     },
@@ -29,6 +31,7 @@ const entries = [
         medium: ["Live Action"],
         year: "1983",
         ranking: 6,
+        timeline: 12,
         tier: "best",
         poster: "imgs/posters/star wars/episode 6 return of the jedi.jpg"
     },
@@ -40,6 +43,7 @@ const entries = [
         medium: ["Live Action"],
         year: "1999",
         ranking: 14,
+        timeline: 2,
         tier: "good",
         poster: "imgs/posters/star wars/episode 1 the phantom menace.jpg"
     },
@@ -51,6 +55,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2002",
         ranking: 10,
+        timeline: 3,
         tier: "excellent",
         poster: "imgs/posters/star wars/episode 2 attack of the clones.jpg"
     },
@@ -62,6 +67,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2005",
         ranking: 3,
+        timeline: 4,
         tier: "great",
         poster: "imgs/posters/star wars/episode 3 revenge of the sith.jpg"
     },
@@ -73,6 +79,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2016",
         ranking: 1,
+        timeline: 9,
         tier: "brilliant",
         poster: "imgs/posters/star wars/rogue one.jpg"
     },
@@ -84,6 +91,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2018",
         ranking: 17,
+        timeline: 5,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/solo.jpg"
     },
@@ -95,6 +103,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2019",
         ranking: 13,
+        timeline: 13,
         tier: "good",
         poster: "imgs/posters/star wars/the mandalorian season 1.jpg",
         episodes: [
@@ -116,6 +125,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2020",
         ranking: 8,
+        timeline: 14,
         tier: "best",
         poster: "imgs/posters/star wars/the mandalorian season 2.jpg",
         episodes: [
@@ -137,6 +147,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2021",
         ranking: 16,
+        timeline: 15,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/the book of boba fett.jpg",
         episodes: [
@@ -157,6 +168,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2022",
         ranking: 9,
+        timeline: 6,
         tier: "excellent",
         poster: "imgs/posters/star wars/obi wan kenobi.jpg",
         episodes: [
@@ -176,6 +188,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2022",
         ranking: 4,
+        timeline: 7,
         tier: "great",
         poster: "imgs/posters/star wars/andor season 1.jpg",
         episodes: [
@@ -201,6 +214,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2023",
         ranking: 15,
+        timeline: 16,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/the mandalorian season 3.jpg",
         episodes: [
@@ -222,6 +236,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2023",
         ranking: 12,
+        timeline: 17,
         tier: "good",
         poster: "imgs/posters/star wars/ahsoka season 1.jpg",
         episodes: [
@@ -243,6 +258,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2024",
         ranking: 19,
+        timeline: 1,
         tier: "mistake",
         poster: "imgs/posters/star wars/the acolyte.jpg",
         episodes: [
@@ -264,6 +280,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2024",
         ranking: 18,
+        timeline: 18,
         tier: "innacuracy",
         poster: "imgs/posters/star wars/skeleton crew.jpg",
         episodes: [
@@ -285,6 +302,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2025",
         ranking: 2,
+        timeline: 8,
         tier: "brilliant",
         poster: "imgs/posters/star wars/andor season 2.jpg",
         episodes: [
@@ -310,6 +328,7 @@ const entries = [
         medium: ["Live Action"],
         year: "2026",
         ranking: 11,
+        timeline: 19,
         tier: "good",
         poster: "imgs/posters/star wars/the mandalorian and grogu.jpg"
     }
