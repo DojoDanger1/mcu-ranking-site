@@ -1,7 +1,7 @@
 # poster website: http://www.impawards.com
 
-STARTING_POSITION = 8
-ENDING_POSITION = 9
+STARTING_POSITION = 52
+ENDING_POSITION = 53
 LIST = 'mcu'
 TYPE = 'ranking' # ranking or timeline
 

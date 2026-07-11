@@ -51,6 +51,8 @@ function updateAverage(filteredEntries) {
         } else if (entry.tier === 'innacuracy') {
             totalScore += -1
         } else if (entry.tier === 'mistake') {
+            totalScore += -2
+        } else if (entry.tier === 'miss') {
             totalScore += -3
         } else if (entry.tier === 'blunder') {
             totalScore += -5
@@ -71,17 +73,19 @@ function updateAverage(filteredEntries) {
             newTier = 'good'
         } else if (newAverage >= -0.5) {
             newTier = 'book'
-        } else if (newAverage >= -2) {
+        } else if (newAverage >= -1.5) {
             newTier = 'innacuracy'
-        } else if (newAverage >= -4) {
+        } else if (newAverage >= -2.5) {
             newTier = 'mistake'
+        } else if (newAverage >= -4) {
+            newTier = 'miss'
         } else {
             newTier = 'blunder'
         };
     } else {
         newTier = 'book'
     };
-    document.getElementById('avgRatingImg').src = `imgs/icons/${newTier}.png`;
+    document.getElementById('avgRating').innerHTML = `Average Rating: <img id="avgRatingImg" src="imgs/icons/${newTier}.png"/> Count: ${filteredEntries.length}`
 }
 
 function renderRankings() {
