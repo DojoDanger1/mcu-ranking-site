@@ -1,0 +1,110 @@
+const entries = [
+    {
+        title: "Memento",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2000",
+        ranking: 9,
+        timeline: 1,
+        tier: "best",
+        poster: "imgs/posters/nolan/memento.jpg"
+    },
+    {
+        title: "Batman Begins",
+        type: "Movie",
+        saga: [],
+        franchise: ["The Dark Knight"],
+        medium: [],
+        year: "2005",
+        ranking: 6,
+        timeline: 2,
+        tier: "best",
+        poster: "imgs/posters/nolan/batman begins.jpg"
+    },
+    {
+        title: "The Prestige",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2006",
+        ranking: 5,
+        timeline: 3,
+        tier: "great",
+        poster: "imgs/posters/nolan/the prestige.jpg"
+    },
+    {
+        title: "The Dark Knight",
+        type: "Movie",
+        saga: [],
+        franchise: ["The Dark Knight"],
+        medium: [],
+        year: "2008",
+        ranking: 4,
+        timeline: 4,
+        tier: "great",
+        poster: "imgs/posters/nolan/the dark knight.jpg"
+    },
+    {
+        title: "Inception",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2010",
+        ranking: 2,
+        timeline: 5,
+        tier: "brilliant",
+        poster: "imgs/posters/nolan/inception.jpg"
+    },
+    {
+        title: "The Dark Knight Rises",
+        type: "Movie",
+        saga: [],
+        franchise: ["The Dark Knight"],
+        medium: [],
+        year: "2012",
+        ranking: 8,
+        timeline: 6,
+        tier: "best",
+        poster: "imgs/posters/nolan/the dark knight rises.jpg"
+    },
+    {
+        title: "Interstellar",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2014",
+        ranking: 1,
+        timeline: 7,
+        tier: "brilliant",
+        poster: "imgs/posters/nolan/interstellar.jpg"
+    },
+    {
+        title: "Tenet",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2020",
+        ranking: 3,
+        timeline: 8,
+        tier: "great",
+        poster: "imgs/posters/nolan/tenet.jpg"
+    },
+    {
+        title: "Oppenheimer",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2023",
+        ranking: 7,
+        timeline: 9,
+        tier: "best",
+        poster: "imgs/posters/nolan/oppenheimer.jpg"
+    }
+]

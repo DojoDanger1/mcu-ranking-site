@@ -5,7 +5,7 @@ ENDING_POSITION = 53
 LIST = 'mcu'
 TYPE = 'ranking' # ranking or timeline
 
-with open(f'entries_{LIST}.js', 'r') as f:
+with open(f'entries/{LIST}.js', 'r') as f:
     lines = f.readlines()
 
 newlines = []
@@ -33,7 +33,7 @@ for line in lines:
     else:
         newlines.append(line)
 
-with open(f'entries_{LIST}.js', 'w') as f:
+with open(f'entries/{LIST}.js', 'w') as f:
     f.writelines(newlines)
 
 print(f'moved number {STARTING_POSITION} to {ENDING_POSITION} in {LIST}')

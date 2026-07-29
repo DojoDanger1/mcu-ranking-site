@@ -4,7 +4,7 @@ POSITION = 75
 LIST = 'mcu'
 TYPE = 'timeline' # ranking or timeline
 
-with open(f'entries_{LIST}.js', 'r') as f:
+with open(f'entries/{LIST}.js', 'r') as f:
     lines = f.readlines()
 
 newlines = []
@@ -19,7 +19,7 @@ for line in lines:
     else:
         newlines.append(line)
 
-with open(f'entries_{LIST}.js', 'w') as f:
+with open(f'entries/{LIST}.js', 'w') as f:
     f.writelines(newlines)
 
 print(f'inserted {POSITION} into {LIST}')
