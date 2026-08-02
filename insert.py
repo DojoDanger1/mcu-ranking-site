@@ -1,8 +1,8 @@
 # poster website: http://www.impawards.com
 
-POSITION = 75
-LIST = 'mcu'
-TYPE = 'timeline' # ranking or timeline
+POSITION = 19
+LIST = 'appletv'
+TYPE = 'ranking' # ranking or timeline
 
 with open(f'entries/{LIST}.js', 'r') as f:
     lines = f.readlines()

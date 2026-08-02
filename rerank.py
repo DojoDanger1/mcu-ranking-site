@@ -1,8 +1,8 @@
 # poster website: http://www.impawards.com
 
-STARTING_POSITION = 52
-ENDING_POSITION = 53
-LIST = 'mcu'
+STARTING_POSITION = 19
+ENDING_POSITION = 20
+LIST = 'appletv'
 TYPE = 'ranking' # ranking or timeline
 
 with open(f'entries/{LIST}.js', 'r') as f:
