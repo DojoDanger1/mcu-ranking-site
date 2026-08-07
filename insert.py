@@ -1,6 +1,6 @@
 # poster website: http://www.impawards.com
 
-POSITION = 11
+POSITION = 6
 LIST = 'starwars'
 TYPE = 'ranking' # ranking or timeline
 
