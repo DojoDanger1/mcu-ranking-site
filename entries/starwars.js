@@ -6,7 +6,7 @@ const entries = [
         franchise: ["Original Trilogy"],
         medium: ["Live Action"],
         year: "1977",
-        ranking: 8,
+        ranking: 7,
         timeline: 10,
         tier: "best",
         poster: "imgs/posters/star wars/episode 4 a new hope.jpg"
@@ -30,7 +30,7 @@ const entries = [
         franchise: ["Original Trilogy"],
         medium: ["Live Action"],
         year: "1983",
-        ranking: 7,
+        ranking: 6,
         timeline: 12,
         tier: "best",
         poster: "imgs/posters/star wars/episode 6 return of the jedi.jpg"
@@ -102,7 +102,7 @@ const entries = [
         franchise: ["Sequel Trilogy"],
         medium: ["Live Action"],
         year: "2017",
-        ranking: 6,
+        ranking: 8,
         timeline: 21,
         tier: "best",
         poster: "imgs/posters/star wars/episode 8 the last jedi.jpg"

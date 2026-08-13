@@ -6,7 +6,7 @@ const entries = [
         franchise: [],
         medium: [],
         year: "2000",
-        ranking: 9,
+        ranking: 10,
         timeline: 1,
         tier: "best",
         poster: "imgs/posters/nolan/memento.jpg"
@@ -18,7 +18,7 @@ const entries = [
         franchise: ["The Dark Knight"],
         medium: [],
         year: "2005",
-        ranking: 6,
+        ranking: 7,
         timeline: 2,
         tier: "best",
         poster: "imgs/posters/nolan/batman begins.jpg"
@@ -66,7 +66,7 @@ const entries = [
         franchise: ["The Dark Knight"],
         medium: [],
         year: "2012",
-        ranking: 8,
+        ranking: 9,
         timeline: 6,
         tier: "best",
         poster: "imgs/posters/nolan/the dark knight rises.jpg"
@@ -102,9 +102,21 @@ const entries = [
         franchise: [],
         medium: [],
         year: "2023",
-        ranking: 7,
+        ranking: 8,
         timeline: 9,
         tier: "best",
         poster: "imgs/posters/nolan/oppenheimer.jpg"
+    },
+    {
+        title: "The Odyssey",
+        type: "Movie",
+        saga: [],
+        franchise: [],
+        medium: [],
+        year: "2026",
+        ranking: 6,
+        timeline: 10,
+        tier: "great",
+        poster: "imgs/posters/nolan/the odyssey.jpg"
     }
 ]

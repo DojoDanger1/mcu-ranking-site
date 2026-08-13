@@ -1,7 +1,7 @@
 # poster website: http://www.impawards.com
 
 POSITION = 6
-LIST = 'starwars'
+LIST = 'nolan'
 TYPE = 'ranking' # ranking or timeline
 
 with open(f'entries/{LIST}.js', 'r') as f:
