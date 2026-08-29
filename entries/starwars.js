@@ -142,6 +142,18 @@ const entries = [
         ]
     },
     {
+        title: "Star Wars: Episode IX - The Rise of Skywalker",
+        type: "Movie",
+        saga: ["Skywalker"],
+        franchise: ["Sequel Trilogy"],
+        medium: ["Live Action"],
+        year: "2019",
+        ranking: 21,
+        timeline: 22,
+        tier: "mistake",
+        poster: "imgs/posters/star wars/episode 9 the rise of skywalker.jpg"
+    },
+    {
         title: "The Mandalorian [Season 2]",
         type: "TV Show",
         saga: ["Filoni-Verse"],
@@ -281,7 +293,7 @@ const entries = [
         franchise: [],
         medium: ["Live Action"],
         year: "2024",
-        ranking: 21,
+        ranking: 22,
         timeline: 1,
         tier: "mistake",
         poster: "imgs/posters/star wars/the acolyte.jpg",
